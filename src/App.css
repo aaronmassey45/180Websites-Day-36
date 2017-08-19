@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+
+.App {
+  text-align: center;
+}
+
+body {
+  background: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/purty_wood.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.Buttons {
+  margin-top: 10%;
+  color: black;
+}
+
+.Buttons button {
+  margin: 12% 0;
+  min-width: 100%
+}
+
+.Calculator {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 400px;
+  width: 300px;
+  padding: 15px;
+  background-color: grey;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px black;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.Display {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #b4b39d;
+  border-radius: 6px;
+  background-color: #c3c2ab;
+  text-align: right;
+  font-size: 2.5em;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.ff {
+  width: 48%;
+  margin-top: -2.5%
+}
+.fl {
+  float: left;
+}
+
+.fl+.fl {
+  margin-left: 4%
+}
+
+.navbar {
+  background: black;
+  z-index: 999;
+}
+
+.tt {
+  width: 22%
+}
+
+.equal {
+  margin-top: -40px !important;
+  height: 80px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
