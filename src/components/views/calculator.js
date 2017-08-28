@@ -9,7 +9,7 @@ export default class Calculator extends Component {
 
     this.state = {
       value: '',
-      decCount: 0
+      decCount: 0 //variable to keep track of decimals
     }
     this.handleGetVal = this.handleGetVal.bind(this);
   }
@@ -64,7 +64,6 @@ export default class Calculator extends Component {
     else {
       this.update(value)
     }
-    console.log(decCount);
     this.setState({ decCount });
   }
   render() {
